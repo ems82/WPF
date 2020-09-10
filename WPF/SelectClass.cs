@@ -13,7 +13,7 @@ namespace WPF
     /// <summary>
     /// Выбор примитивов
     /// </summary>
-    class SelectClass
+   public class SelectClass
     {
         [CommandMethod("SelectObjectsByCrossingWindow")]
 

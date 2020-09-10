@@ -65,6 +65,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SelectClass.cs" />
+    <Compile Include="SelectClass1.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form_CreateLayer.resx">
