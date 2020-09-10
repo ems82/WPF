@@ -1,0 +1,8 @@
+E:\devAutocad\WPF\WPF\bin\Debug\WPF.dll
+E:\devAutocad\WPF\WPF\bin\Debug\WPF.pdb
+E:\devAutocad\WPF\WPF\obj\Debug\WPF.csprojAssemblyReference.cache
+E:\devAutocad\WPF\WPF\obj\Debug\WPF.csproj.CoreCompileInputs.cache
+E:\devAutocad\WPF\WPF\obj\Debug\WPF.dll
+E:\devAutocad\WPF\WPF\obj\Debug\WPF.pdb
+E:\devAutocad\WPF\WPF\obj\Debug\WPF.Form_CreateLayer.resources
+E:\devAutocad\WPF\WPF\obj\Debug\WPF.csproj.GenerateResource.cache
