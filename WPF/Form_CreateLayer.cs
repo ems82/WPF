@@ -53,5 +53,10 @@ namespace WPF
             else
             { MessageBox.Show("Название слоя не может быть пустым"); }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ///
+        }
     }
 }
