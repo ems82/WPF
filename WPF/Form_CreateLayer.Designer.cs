@@ -34,6 +34,7 @@
             this.checkBox_isFrozen = new System.Windows.Forms.CheckBox();
             this.button_ok = new System.Windows.Forms.Button();
             this.button_cancel = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox_layerName
@@ -42,7 +43,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox_layerName.Location = new System.Drawing.Point(22, 39);
             this.textBox_layerName.Name = "textBox_layerName";
-            this.textBox_layerName.Size = new System.Drawing.Size(240, 20);
+            this.textBox_layerName.Size = new System.Drawing.Size(377, 20);
             this.textBox_layerName.TabIndex = 0;
             // 
             // label1
@@ -78,7 +79,7 @@
             // button_ok
             // 
             this.button_ok.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button_ok.Location = new System.Drawing.Point(127, 84);
+            this.button_ok.Location = new System.Drawing.Point(264, 84);
             this.button_ok.Name = "button_ok";
             this.button_ok.Size = new System.Drawing.Size(60, 25);
             this.button_ok.TabIndex = 4;
@@ -90,19 +91,29 @@
             // 
             this.button_cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button_cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button_cancel.Location = new System.Drawing.Point(203, 84);
+            this.button_cancel.Location = new System.Drawing.Point(340, 84);
             this.button_cancel.Name = "button_cancel";
             this.button_cancel.Size = new System.Drawing.Size(59, 25);
             this.button_cancel.TabIndex = 5;
             this.button_cancel.Text = "Отмена";
             this.button_cancel.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(183, 84);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(62, 25);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Выбрать";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form_CreateLayer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button_cancel;
-            this.ClientSize = new System.Drawing.Size(284, 141);
+            this.ClientSize = new System.Drawing.Size(421, 141);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button_cancel);
             this.Controls.Add(this.button_ok);
             this.Controls.Add(this.checkBox_isFrozen);
@@ -126,5 +137,6 @@
         private System.Windows.Forms.CheckBox checkBox_isFrozen;
         private System.Windows.Forms.Button button_ok;
         private System.Windows.Forms.Button button_cancel;
+        private System.Windows.Forms.Button button1;
     }
 }
